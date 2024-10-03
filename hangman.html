@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hangman.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <header>Hangman</header>
+        <div class="incorrect_guess">0/7</div>
+        <div class="score">00</div>
+    </div>
+    <div class="container">
+        <!-- Image container -->
+        <div class="image-chnager">
+            <img src="./Allstages/stage1.png" alt="" class="image-changer">
+        </div>
+
+        <!-- Empty elements will display here -->
+        <div class="finder">
+            <ul class="lists">
+                <!-- <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li> -->
+            </ul>
+
+            <!-- hint and answer will show here -->
+            <div class="hint"></div>
+            <div class="quit" id="quit"></div>
+
+            <!-- Buttons for reset and quit -->
+            <div class="new-hunt">
+                <button onclick="{resett()}" class="reset">RESET</button>
+                <button onclick="{quitt()}" class="quit">QUIT</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- KEYBOARD -->
+    <div class="keyboard">
+        <button class="button">A</button>
+        <button class="button">B</button>
+        <button class="button">C</button>
+        <button class="button">D</button>
+        <button class="button">E</button>
+        <button class="button">F</button>
+        <button class="button">G</button>
+        <button class="button">H</button>
+        <button class="button">I</button>
+        <button class="button">J</button>
+        <button class="button">K</button>
+        <button class="button">L</button>
+        <button class="button">M</button>
+        <button class="button">N</button>
+        <button class="button">O</button>
+        <button class="button">P</button>
+        <button class="button">Q</button>
+        <button class="button">R</button>
+        <button class="button">S</button>
+        <button class="button">T</button>
+        <button class="button">U</button>
+        <button class="button">V</button>
+        <button class="button">W</button>
+        <button class="button">X</button>
+        <button class="button">Y</button>
+        <button class="button">Z</button>
+    </div>
+
+    <script src="./hangman.js"></script>
+
+</body>
+
+</html>
